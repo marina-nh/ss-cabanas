@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra y Sol</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SyS Cabañas</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Inicio</li>
+            <li><a href="#"></a>Cabañas</li>
+            <li><a href="#"></a>Servicios</li>
+            <li><a href="#"></a>Galeria</li>
+            <li class="ctn"><a href="#"></a>Contacto y Ubicación</li>
+        </ul>
+        <img src="./img/icons8-menu-50.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Vení a disfrutar en la serenidad serrana</h2>
+            <div class="line"></div>
+            <h1>SIERRA Y SOL CABAÑAS</h1>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>CONOCENOS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4>Complejo Turístico</h4>
+                <p>Situado en el corazón de la encantadora Villa Giardino, en Córdoba, el complejo de cabañas "Sierra
+                    y Sol" te invita a vivir una experiencia única. Ubicado en el pintoresco barrio de Los
+                    Quimbaletes, nuestras cabañas están diseñadas para brindarte momentos de paz y conexión con la
+                    naturaleza, lejos del bullicio de la ciudad.
+                    <br><br>
+                    En Sierra y Sol Cabañas, nos esforzamos por crear un refugio donde tus únicas preocupaciones sean
+                    admirar
+                    el espectáculo del sol deslizándose entre las majestuosas montañas al final del día. Con atención
+                    meticulosa a cada detalle, nuestras cabañas ofrecen todas las comodidades que necesitas para
+                    disfrutar de unas vacaciones inolvidables, ya sea en familia, con amigos, en pareja o incluso con tu
+                    mascota.
+                    <br><br>
+                    Bienvenido a Sierra y Sol Cabañas, donde la magia de la naturaleza se fusiona con el confort de tu
+                    hogar
+                    lejos de casa.
+                </p>
+            </div>
+        </div>
+        <img src="./img/img-1.jpg" alt="">
+        <img src="./img/img-2.jpg" alt="">
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>SERVICIOS</h1>
+            <div class="line"></div>
+            <p>
+                Ubicado en un entorno pintoresco, nuestro complejo ofrece una variedad de servicios diseñados
+                para satisfacer todas tus necesidades y deseos, donde encontrarás aire acondicionado en todas
+                las cabañas, la posibilidad de traer a tus mascotas, cocinas equipadas, una refrescante piscina,
+                parrillas
+                para tus asados al aire libre y conexión WiFi en todo el complejo. ¡Disfruta de la comodidad y la
+                relajación que te ofrecemos!
+            </p>
+            <div class="service">
+                <div class="grid-item"><img src="./img/icon-1.png" alt=""></div>
+                <div class="grid-item"><img src="./img/icon-2.png" alt=""></div>
+                <div class="grid-item"><img src="./img/icon-3.png" alt=""></div>
+                <div class="grid-item"><img src="./img/icon-4.png" alt=""></div>
+                <div class="grid-item"><img src="./img/icon-5.png" alt=""></div>
+                <div class="grid-item"><img src="./img/icon-7.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Vení a Conocer Tu Próximo Destino</h1>
+                <p> El complejo de cabañas se encuentra Santa María de Punilla, Provincia de Córdoba.
+                    <br><br>
+                    Rodeado de una exuberante vegetación y un ambiente tranquilo, el complejo ofrece a sus visitantes
+                    un refugio sereno y natural. Está situado en un entorno pintoresco, 
+                    donde se puede disfrutar de la
+                    belleza de la naturaleza y la tranquilidad del campo. 
+                    <br><br>
+                    La ubicación brinda fácil acceso a diversas
+                    atracciones locales, senderos para caminatas y ríos cristalinos,
+                    lo que permite a los huéspedes explorar y disfrutar de la rica cultura y la espectacular belleza
+                    natural de la región de Córdoba. </p>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img-3.jpg" alt="">
+                    <img src="./img/img-4.jpg" alt="">
+                    <img src="./img/img-7.jpg" alt="">
+                    <img src="./img/img-8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Copyright © 2023 Sierra y Sol Cabañas. Todos los derechos reservados. Desarrollado por <a href="" name="nunezcodelab">NuñezCodeLab</a> </p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
